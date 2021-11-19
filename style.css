@@ -1,0 +1,197 @@
+.center {
+    text-align: center;
+    text-align-last: center;
+}
+.meme {
+    height: 600px;
+    width: 330px;
+    left: 820px;
+    position: relative;
+    top: 80px;
+}
+
+.centertable{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.greeting {
+    text-size-adjust: 20px;
+}
+
+.dnav{
+    box-shadow: 0 0 0 rgba(0,0,0,.5);
+}
+.header {
+    grid-area: header;
+    min-height: 100px;
+    width: 100%;
+    box-shadow: 0 0px 73px rgba(49,46,41,1);
+}
+
+.homebutton {
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    left: 20px;
+    top: 20px;
+}
+
+.login {
+    position: relative;
+    left: 33%;
+    top: 15%;
+    height: 40%;
+    width: 33%;
+    border: solid black 2px;
+}
+
+.inscription {
+    position: relative;
+    left: 33%;
+    top: 15%;
+    height: 75%;
+    width: 33%;
+    border: solid black 2px;
+}
+
+.homeimage {
+    display: block;
+    height: 50px;
+    width: 50px;
+}
+
+.logoutbutton {
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    right: 20px;
+    top: 20px;
+}
+
+.logoutimage {
+    display: block;
+    height: 50px;
+    width: 50px;
+}
+
+.titre {
+    position: relative;
+    text-align: center;
+    text-align-last: center;
+}
+
+.footer {
+    grid-area: footer;
+    width: 100%;
+    /* position: absolute; */
+    /* left: 0;
+    bottom: 0; */
+    background-color: rgb(22, 22, 97);
+    color: white;
+}
+.nav {
+    grid-area: nav;
+   
+    justify-content: center;
+    width: 100%;
+}
+body{
+    background: linear-gradient(45deg,#49a09d,#5f2c82);
+
+}
+
+.navtable {
+    width: 100%;
+    justify-content: center;
+    position: relative;
+    left: 0%;
+    box-shadow: 0 0 20px rgba(0,0,0,0.1);
+}
+thead{
+    background-color: rgba(255,255,255,0.2);
+}
+
+tr:nth-child(odd){
+    background-color: #d3d3d342;
+}
+
+th{
+    text-align: left;
+    padding: 15px;
+    background-color: rgba(255,255,255,0.2) ;
+    color: #fff;
+}
+
+
+
+.section {
+    grid-area: section;
+    background: linear-gradient(45deg,#49a09d,#5f2c82);
+    justify-content: center;
+}
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+#conteneur {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(8, 1fr);
+    grid-auto-rows: minmax(auto, auto);
+    height: 100vh;
+    grid-gap: 5px;
+    margin: 0 auto;
+    
+    grid-template-areas:
+	"header     header      header      header"
+	"section    section     section     section"
+	"section    section     section     section"
+	"section    section     section     section"
+    "section    section     section     section"
+    "section    section     section     section"
+    "section    section     section     section"
+	"footer     footer      footer      footer"; 
+}
+
+#conteneurcon {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(8, 1fr);
+    grid-auto-rows: minmax(auto, auto);
+    height: 100vh;
+    grid-gap: 5px;
+    margin: 0 auto;
+    grid-template-areas:
+	"header     header      header      header      header"
+	"section    section     section     section     nav"
+    "section    section     section     section     nav"
+    "section    section     section     section     nav"
+    "section    section     section     section     nav"
+    "section    section     section     section     nav"
+    "section    section     section     section     nav"
+	"footer     footer      footer      footer      footer"; 
+}
+
+#footertable {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 50%;
+    position: relative;
+    left: 25%;
+    text-align: center;
+}
+
+#footertable td, #footertable th {
+    padding: 8px;
+}
+
+#footertable th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #045aaa;
+    color: grey;
+    text-align: center;
+}
