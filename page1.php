@@ -11,7 +11,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="style.css" rel="stylesheet">
-    <title>Page 1</title>
+    <title>Frodon</title>
 </head>
 <body id="conteneurcon">
     <?php echo $_SESSION['username']; ?>

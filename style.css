@@ -43,7 +43,6 @@
     top: 15%;
     height: 40%;
     width: 33%;
-    border: solid black 2px;
 }
 
 .inscription {
@@ -52,7 +51,6 @@
     top: 15%;
     height: 75%;
     width: 33%;
-    border: solid black 2px;
 }
 
 .homeimage {
@@ -92,7 +90,6 @@
 }
 .nav {
     grid-area: nav;
-   
     justify-content: center;
     width: 100%;
 }
@@ -143,7 +140,6 @@ body {
     height: 100vh;
     grid-gap: 5px;
     margin: 0 auto;
-    
     grid-template-areas:
 	"header     header      header      header"
 	"section    section     section     section"

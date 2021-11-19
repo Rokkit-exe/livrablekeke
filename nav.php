@@ -11,17 +11,17 @@
             <tbody>
                 <tr>
                     <td><a href="page1.php">
-                            <h2>page 1</h2>
+                            <h2>Frodon</h2>
                         </a></td>
                 </tr>
                 <tr>
                     <td><a href="page2.php">
-                            <h2>page 2</h2>
+                            <h2>Gandalf</h2>
                         </a></td>
                 </tr>
                 <tr>
                     <td><a href="page3.php">
-                            <h2>page 3</h2>
+                            <h2>Gollum</h2>
                         </a></td>
                 </tr>
             </tbody>
