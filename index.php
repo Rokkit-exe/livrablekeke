@@ -48,8 +48,10 @@ if (!(empty($_POST['username']))) {
     <div id="conteneurcon">
         <?php require "header.php"; ?> 
         <?php require "nav.php"; ?> 
-        <section class="section">
-            <div class="meme">
+        <section class="center section">
+            <h1>The Lord Of The Rings</h1><br><br><br>
+            <?php require "ASCII/LOTR.php"; ?>
+            <!-- <div class="meme">
                         ⢸⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⡷⡄⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
                 ⢸⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀ ⡇⠢⣀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
                 ⢸⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⡇⠀⠈⠑⢦⡀⠀⠀⠀⠀⠀Are you wasting my money again, son?
@@ -67,7 +69,7 @@ if (!(empty($_POST['username']))) {
                 ⢸⠀⠀⠀⠀⠀⡌⠀⠈⡆⠀⠀⠀⠀⠀⠀⠀⡇⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢸
                 ⢸⠀⠀⠀⠀⢠⠃⠀⠀⡇⠀⠀⠀⠀⠀⠀⠀⡇⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢸
                 ⢸⠀⠀⠀⠀⢸⠀⠀⠀⠁⠀⠀⠀⠀⠀⠀⠀⠷⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢸
-            </div>     
+            </div>      -->
         </section>
         <?php require "footer.php"; ?> 
     </div>
