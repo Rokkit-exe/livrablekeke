@@ -1,6 +1,6 @@
 <header class="header greeting">
     <a href="index.php" class="homebutton">
-        <img class="homeimage" src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ficon-library.com%2Fimages%2Fhome-logo-icon%2Fhome-logo-icon-16.jpg&f=1&nofb=1" alt="Home">
+        <img class="homeimage" src="https://cdn-icons-png.flaticon.com/512/69/69524.png" alt="Home">
     </a>
     <span>
         <h1 class="titre">Bienvenue <?php echo $_SESSION['username'] ?> !</h1>

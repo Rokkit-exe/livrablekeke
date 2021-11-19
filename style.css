@@ -40,7 +40,7 @@
 .login {
     position: relative;
     left: 33%;
-    top: 15%;
+    top: 10%;
     height: 40%;
     width: 33%;
 }
@@ -95,7 +95,8 @@
 }
 body{
     background: linear-gradient(45deg,#49a09d,#5f2c82);
-
+    margin: 0px;
+    padding: 0px;
 }
 
 .navtable {
@@ -126,10 +127,6 @@ th{
     grid-area: section;
     background: linear-gradient(45deg,#49a09d,#5f2c82);
     justify-content: center;
-}
-body {
-    margin: 0px;
-    padding: 0px;
 }
 
 #conteneur {

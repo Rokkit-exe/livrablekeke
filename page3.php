@@ -17,7 +17,8 @@
         <?php require "template/header.php" ?>
         <?php require "template/nav.php" ?>
         <section class="center section">
-            <h1>Gollum</h1><br><br><br>
+            <h1>Gollum</h1>
+            <br><br><br>
             <?php require "ASCII/Gollum.php";?>> 
         </section>
         <?php require "template/footer.php" ?>

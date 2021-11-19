@@ -43,10 +43,10 @@ function AjouterUtilisateur($nom, $prenom, $pseudonyme, $mdp)
         $sql = "INSERT INTO Login (nom, prenom, pseudonyme, mdp) VALUES (?, ?, ?, ?)";
         $stmt = $pdo->prepare($sql);
         $stmt->execute([$nom, $prenom, $pseudonyme, $mdp]);
-        echo "tu est un genie! ";
+        $GLOBALS["resultat"] = "<h3>tu est un genie!</h3>";
     } catch (Exception $e) {
         //throw new \Exception($e->getMessage(), (int)$e->getCode());
-        echo 'POURRI! MARCHE PAS!';
+        $GLOBALS["resultat"] = '<h3>POURRI! MARCHE PAS!</h3>';
     }
 }
 function VérifierLogin()
@@ -72,9 +72,9 @@ function EnvoyeEmail($email)
 
     // la valeur TRUE ne garantit pas la livraison à 100%
     if (!$code) {
-        echo "<h3 style='color:red'>Le message n'a pas été envoyé</h3>";
+        $GLOBALS["envoye"] = "<h3 style='color:red'>Le message n'a pas été envoyé</h3>";
     } else {
-        echo "<h3 style='color:green'>Le message a été envoyé avec succès</h3>";
+        $GLOBALS["envoye"] = "<h3 style='color:green'>Le message a été envoyé avec succès</h3>";
     }
 }
 
