@@ -12,15 +12,8 @@
         <?php require "header.php" ?>
         <?php require "nav.php" ?>
         <section class="center section">
-            <h1>
-                Une Histoire de Troll
-            </h1>
-            <br><br>
-            <p>
-                Il était une fois un Hobbit. Son nom était Frodon et il aimait particulièrement les aventures.
-                Frodon à complèté plusieurs aventures de différent type. Par contre, le but final de ses aventures
-                on toujours été de détruire l'anneaux.
-            </p>
+            <h1>Gandalf</h1><br><br><br>
+            <?php require "ASCII/Gandalf.php";?>> 
         </section>
         <?php require "footer.php" ?>
     </div>
