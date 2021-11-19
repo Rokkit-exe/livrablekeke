@@ -15,7 +15,7 @@
                         </a></td>
                 </tr>
                 <tr>
-                    <td><a href="page2.php">
+                    <td><a href="page2.php"></a>
                             <h2>Gandalf</h2>
                         </a></td>
                 </tr>

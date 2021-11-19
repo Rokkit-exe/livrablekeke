@@ -46,5 +46,5 @@
                 <form class="center" action="login.php"><input type="submit" value="Retour"></form>
             </div>
         </section>
-        <?php require "footer.php"; ?>
+        <?php require "template/footer.php"; ?>
     </div>

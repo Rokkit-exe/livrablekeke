@@ -14,13 +14,13 @@
 </head>
 <body>
     <div id="conteneurcon">
-        <?php require "header.php" ?>
-        <?php require "nav.php" ?>
+        <?php require "template/header.php" ?>
+        <?php require "template/nav.php" ?>
         <section class="center section">
             <h1>Gollum</h1><br><br><br>
             <?php require "ASCII/Gollum.php";?>> 
         </section>
-        <?php require "footer.php" ?>
+        <?php require "template/footer.php" ?>
     </div>
 </body>
 </html>

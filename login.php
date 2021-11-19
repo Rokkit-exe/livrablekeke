@@ -57,7 +57,7 @@ $username = $_SESSION['username'] ;
             </div>
         </section>
         <br><br>
-        <?php require "footer.php"; ?>
+        <?php require "template/footer.php"; ?>
     </div>
 </body> 
 </html>
