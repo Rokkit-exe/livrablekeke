@@ -1,3 +1,8 @@
+<?php
+    require 'bd.php';
+    $pdo = Getpdo();
+    session_start();
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>

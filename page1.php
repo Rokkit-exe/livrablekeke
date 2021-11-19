@@ -1,3 +1,9 @@
+<?php
+    require 'bd.php';
+    $pdo = Getpdo();
+    session_start();
+
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -8,6 +14,7 @@
     <title>Page 1</title>
 </head>
 <body id="conteneurcon">
+    <?php echo $_SESSION['username']; ?>
     <?php require "header.php"; ?>
     <?php require "nav.php"; ?>
     <section class="center section">
