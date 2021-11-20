@@ -2,7 +2,7 @@
     <div class="dnav">
         <table class="navtable">
             <thead>
-                <tr>
+                <tr> 
                     <th>
                         <h1>Navigation</h1>
                     </th>
