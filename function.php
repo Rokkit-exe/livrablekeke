@@ -1,4 +1,6 @@
+
 <?php 
+    // asdfghjklsadfghjklsdfghjk
     $pdo = null;
 
     function Getpdo(){
